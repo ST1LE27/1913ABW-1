@@ -1,0 +1,15 @@
+characters={
+	ITL_Giovanni_Giolitti = {
+		name = "Giovanni Giolitti" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Giovanni_Giolitti
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

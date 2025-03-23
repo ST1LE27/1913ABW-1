@@ -1,0 +1,15 @@
+characters={
+	FTM_Hubert_Lyautey = {
+		name = "Hubert Lyautey" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Hubert_Lyautey
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

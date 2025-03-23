@@ -1,0 +1,646 @@
+focus_tree = {
+	id = rus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RSE
+		}
+	}
+	
+	default = yes
+	
+	focus = {
+		id = RSE1 #Новый Главнокомандующий
+		icon = GFX_goal_New_Fieldmarshal
+		cost = 0
+		x = 7
+		y = 0
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = rusempire.1
+					days = 2
+				}
+			}
+			custom_effect_tooltip = "Начнётся борьба за влияние на императора."
+		}
+	}
+	focus = {
+		id = RSE2 #С возвращением Пётр Аркадьевич!
+		icon = GFX_goal_Welcome_Stolypin
+		cost = 0
+		x = 24
+		y = 0
+
+	}
+	focus = {
+		id = RSE3 #Алексеев
+		icon = GFX_goal_Alekseev
+		cost = 0
+		prerequisite = {
+			focus = RSE1 #Новый Главнокомандующий
+		}
+		mutually_exclusive = {
+			focus = RSE7 #Янушкевич
+		}
+		x = 4
+		y = 1
+		completion_reward = {
+			recruit_character = RSE_Mikhail_Alexeev
+		}
+	}
+	focus = {
+		id = RSE4 #Инновационное военное образование
+		icon = GFX_goal_innovation_education
+		cost = 0
+		prerequisite = {
+			focus = RSE3 #Алексеев
+		}
+		x = 4
+		y = 2
+		completion_reward = {
+			hidden_effect = {
+				add_tech_bonus = {
+    				bonus = 0.5
+    				uses = 1
+   					category = radar_tech #ИЗМЕНИТЬ КАТЕГОРИЮ ПОСЛЕ РАЗРАБОТКИ ТЕХОВ
+				}
+				add_unit_bonus = {
+					#Добавить бонус когда сделаем юнитов.
+				}
+			}
+			custom_effect_tooltip = "В России начинается процесс модернизации армии. Ускоряются исследования в области механизации"
+		}
+	}
+	focus = {
+		id = RSE5 #Своенравные оффицеры
+		icon = GFX_goal_Liberalistic_Officer
+		cost = 0
+		prerequisite = {
+			focus = RSE4 #Инновационное военное образование
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = RSE6 #Колчак
+		icon = GFX_goal_Kolchak
+		cost = 0
+		prerequisite = {
+			focus = RSE5 #Своенравные оффицеры
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = RSE7 #Янушкевич
+		icon = GFX_goal_Yanushkevich
+		cost = 0
+		prerequisite = {
+			focus = RSE1 #Новый Главнокомандующий
+		}
+		mutually_exclusive = {
+			focus = RSE3 #Алексеев
+		}
+		x = 10
+		y = 1
+		completion_reward = {
+			recruit_character = RSE_Nikolai_Yanushkevich
+		}
+	}
+	focus = {
+		id = RSE8 #Подготовиться к войне
+		icon = GFX_goal_Prepare_to_war
+		cost = 0
+		prerequisite = {
+			focus = RSE7 #Янушкевич
+			focus = RSE3 #Алексеев
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = RSE9 #Составить мобилизационные списки
+		icon = GFX_goal_Mobilisation_lists
+		cost = 0
+		prerequisite = {
+			focus = RSE8 #Подготовиться к войне
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = RSE10 #Стандартизировать комплекты
+		icon = GFX_goal_standartisation_complects
+		cost = 0
+		prerequisite = {
+			focus = RSE8 #Подготовиться к войне
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = RSE12 #План Алексеева
+		icon = GFX_goal_Alexeev_plan
+		cost = 0
+		prerequisite = {
+			focus = RSE9 
+		}
+		prerequisite = {
+			focus = RSE10 
+		}
+		mutually_exclusive = {
+			focus = RSE15 #План Янушкевича
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = RSE13 #Конфискация Торговых Судов
+		icon = GFX_goal_arest_trade_ship
+		cost = 0
+		prerequisite = {
+			focus = RSE12 #План Алексеева
+		}
+		prerequisite = {
+			focus = RSE6 #Колчак
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = RSE14 #Инвестиции в Механизацию
+		icon = GFX_goal_Investmants_in_mechanization
+		cost = 0
+		prerequisite = {
+			focus = RSE12 #План Алексеева
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = RSE15 #План Янушкевича
+		icon = GFX_goal_Yanushkevich_plan
+		cost = 0
+		prerequisite = {
+			focus = RSE9 
+		}
+		prerequisite = {
+			focus = RSE10 
+		}
+		mutually_exclusive = {
+			focus = RSE12 #План Алексеева
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = RSE16 #Провести Мобилизацию
+		icon = GFX_goal_mobilization
+		cost = 0
+		prerequisite = {
+			focus = RSE15 #План Янушкевича
+			focus = RSE12 #План Алексеева
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = RSE17 #Россия в Войне
+		icon = GFX_goal_Russia_in_war
+		cost = 0
+		prerequisite = {
+			focus = RSE16 #Провести Мобилизацию
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = RSE18 #Сформировать опорные пункты
+		icon = GFX_goal_dot_position
+		cost = 0
+		prerequisite = {
+			focus = RSE15 #План Янушкевича
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = RSE19 #Укрепрайон
+		icon = GFX_goal_ukrep
+		cost = 0
+		prerequisite = {
+			focus = RSE18 #Сформировать опорные пункты
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = RSE20 #Консервативный подход
+		icon = GFX_goal_conservatism_in_army
+		cost = 0
+		prerequisite = {
+			focus = RSE7 #Янушкевич
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = RSE21 #Царская Армия
+		icon = GFX_goal_Tsars_army
+		cost = 0
+		prerequisite = {
+			focus = RSE20 #Консервативный подход
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = RSE22 #Эссен
+		icon = GFX_goal_Essen
+		cost = 0
+		prerequisite = {
+			focus = RSE21 #Царская Армия
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = RSE23 #Развитие Артилерии
+		icon = GFX_goal_Upgrading_Artillery
+		cost = 0
+		prerequisite = {
+			focus = RSE15 #План Янушкевича
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = RSE24 #Расширение Обуховского Завода
+		icon = GFX_goal_Upgrade_Obukhov_Factory
+		cost = 0
+		prerequisite = {
+			focus = RSE23 #Развитие Артилерии
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = RSE25 #Конфискация Доков
+		icon = GFX_goal_arest_dockyard
+		cost = 0
+		prerequisite = {
+			focus = RSE15 #План Янушкевича
+		}
+		prerequisite = {
+			focus = RSE22 #Эссен
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = RSE26 #Плавучая Крепость
+		icon = GFX_goal_Swimming_castle
+		cost = 0
+		prerequisite = {
+			focus = RSE25 #Конфискация Доков
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = RSE27 #Береговые Крепости
+		icon = GFX_goal_Navy_bunker
+		cost = 0
+		prerequisite = {
+			focus = RSE26 #Плавучая Крепость
+		}
+		prerequisite = {
+			focus = RSE24 #Расширение Обуховского Завода
+		}
+		prerequisite = {
+			focus = RSE19 #Укрепрайон
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = RSE28 #Расширить Права Крестьян
+		icon = GFX_goal_Improve_citizen_laws
+		cost = 0
+		prerequisite = {
+			focus = RSE2 #С возвращением Пётр Аркадьевич!
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = RSE29 #Защитить Крестьян от Эксплуатации
+		icon = GFX_goal_Deffend_Worker
+		cost = 0
+		prerequisite = {
+			focus = RSE2 #С возвращением Пётр Аркадьевич!
+		}
+		x = 26
+		y = 1
+
+	}
+	focus = {
+		id = RSE30 #Царские инвестиции в частную собственность
+		icon = GFX_goal_Investment_in_selfmade
+		cost = 0
+		prerequisite = {
+			focus = RSE29 #Защитить Крестьян от Эксплуатации
+		}
+		prerequisite = {
+			focus = RSE28 #Расширить Права Крестьян
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = RSE31 #Капитализм в Сельском Хозяйстве
+		icon = GFX_goal_capital_in_farming
+		cost = 0
+		prerequisite = {
+			focus = RSE29 #Защитить Крестьян от Эксплуатации
+		}
+		prerequisite = {
+			focus = RSE28 #Расширить Права Крестьян
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = RSE32 #Закончить Аграрную Реформу
+		icon = GFX_goal_End_Agrarian_Reform
+		cost = 0
+		prerequisite = {
+			focus = RSE31 #Капитализм в Сельском Хозяйстве
+		}
+		prerequisite = {
+			focus = RSE30 #Царские инвестиции в частную собственность
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = RSE33 #Усилить Охранку
+		icon = GFX_goal_Okhranka
+		cost = 0
+		prerequisite = {
+			focus = RSE32 #Закончить Аграрную Реформу
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = RSE34 #Ввести Военное Положение
+		icon = GFX_goal_Voen_pologenie
+		cost = 0
+		prerequisite = {
+			focus = RSE33 #Усилить Охранку
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = RSE35 #Эвакуировать Императорскую Семью
+		icon = GFX_goal_Evacuation_Emperor_Family
+		cost = 0
+		prerequisite = {
+			focus = RSE33 #Усилить Охранку
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = RSE36 #Карательные Отряды
+		icon = GFX_goal_Karatels_squads
+		cost = 0
+		prerequisite = {
+			focus = RSE35 #Эвакуировать Императорскую Семью
+		}
+		prerequisite = {
+			focus = RSE34 #Ввести Военное Положение
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = RSE37 #Агенты в рядах
+		icon = GFX_goal_Agent_in_revolution
+		cost = 0
+		prerequisite = {
+			focus = RSE33 #Усилить Охранку
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = RSE38 #Арестовать Лидеров
+		icon = GFX_goal_Arest_revolt_leaders
+		cost = 0
+		prerequisite = {
+			focus = RSE37 #Агенты в рядах
+		}
+		prerequisite = {
+			focus = RSE35 #Эвакуировать Императорскую Семью
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = RSE39 #Мятеж подавлен
+		icon = GFX_goal_revolt_is_stopped
+		cost = 0
+		prerequisite = {
+			focus = RSE38 #Арестовать Лидеров
+		}
+		prerequisite = {
+			focus = RSE36 #Карательные Отряды
+		}
+		x = 24
+		y = 7
+
+	}
+	focus = {
+		id = RSE40 #Подготовить красную площадь
+		icon = GFX_goal_prepare_red_square
+		cost = 0
+		prerequisite = {
+			focus = RSE39 #Мятеж подавлен
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = RSE41 #Подготовить логистические узлы
+		icon = GFX_goal_Create_Logistic_Network
+		cost = 0
+		prerequisite = {
+			focus = RSE12 #План Алексеева
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = RSE42 #Подготовка десантных корпусов
+		icon = GFX_goal_Training_Mriners
+		cost = 0
+		prerequisite = {
+			focus = RSE13 #Конфискация Торговых Судов
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = RSE43 #Закупить технику у Британии
+		icon = GFX_goal_Buy_British_Tanks
+		cost = 0
+		prerequisite = {
+			focus = RSE14 #Инвестиции в Механизацию
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = RSE44 #При-фронтовая логистическая сеть
+		icon = GFX_goal_Logistic_2
+		cost = 0
+		prerequisite = {
+			focus = RSE41 #Подготовить логистические узлы
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = RSE45 #Манёвренная война
+		icon = GFX_goal_Speed_War
+		cost = 0
+		prerequisite = {
+			focus = RSE44 #При-фронтовая логистическая сеть
+		}
+		prerequisite = {
+			focus = RSE43 #Закупить технику у Британии
+		}
+		prerequisite = {
+			focus = RSE42 #Подготовка десантных корпусов
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = RSE46 #Сформировать НККИ
+		icon = GFX_goal_NKKI
+		cost = 0
+		prerequisite = {
+			focus = RSE39 #Мятеж подавлен
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = RSE47 #Кровавая неделя
+		icon = GFX_goal_Bloodly_week
+		cost = 0
+		prerequisite = {
+			focus = RSE40 #Подготовить красную площадь
+		}
+		prerequisite = {
+			focus = RSE46 #Сформировать НККИ
+		}
+		x = 24
+		y = 9
+
+	}
+	focus = {
+		id = RSE48 #Ограничить Думу
+		icon = GFX_goal_Control_Duma
+		cost = 0
+		prerequisite = {
+			focus = RSE47 #Кровавая неделя
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = RSE49 #Новый Тайный Совет
+		icon = GFX_goal_New_Secret_Emperor_Union
+		cost = 0
+		prerequisite = {
+			focus = RSE47 #Кровавая неделя
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = RSE50 #Диалог с Германией
+		icon = GFX_goal_Gernan_Russian_Contact
+		cost = 0
+		prerequisite = {
+			focus = RSE49 #Новый Тайный Совет
+		}
+		prerequisite = {
+			focus = RSE48 #Ограничить Думу
+		}
+		x = 24
+		y = 11
+
+	}
+	focus = {
+		id = RSE51 #Займёся собой
+		icon = GFX_goal_Make_yourself
+		cost = 0
+		prerequisite = {
+			focus = RSE50 #Диалог с Германией
+		}
+		x = 24
+		y = 12
+
+	}
+	continuous_focus_position = { x = 50 y = 2500 }
+}
+
+

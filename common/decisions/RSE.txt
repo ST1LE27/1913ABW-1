@@ -1,0 +1,45 @@
+RSE_new_fieldmarshall = {
+	RSE_increase_yanushkevich = {
+		name = "increase_yanushkevich_support"
+		icon = GFX_decision_icon  # Замените на иконку
+		allowed = {
+            tag = RSE
+        }
+        visible = {
+            has_country_flag = yanushkevich_support
+        }
+        available = {
+            RSE = {
+                political_power = 75
+        }
+		}
+		cost = 75  # Политическая сила
+		effect = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	RSE_increase_alexeev = {
+		name = "increase_alexeev_support"
+		icon = GFX_decision_icon  # Замените на иконку
+		allowed = {
+            tag = RSE
+        }
+        visible = {
+            has_country_flag = alexeev_support
+        }
+        available = {
+            RSE = {
+                political_power = 75
+        }
+		}
+		cost = 75  # Политическая сила
+		effect = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

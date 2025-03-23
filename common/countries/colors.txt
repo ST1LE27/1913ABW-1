@@ -1,0 +1,138 @@
+#reload countrycolors
+#reload countrycolors
+BRT = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+BAS = {
+	color = rgb { 57  143  97 }
+	color_ui = rgb { 57  143  97 }
+}
+BNZ = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}
+BPZ = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+SMK = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
+}
+BIN = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+RSE = {
+	color = rgb { 53 87 53 }
+	color_ui = rgb { 43 71 43 }
+}
+HDB = {
+	color = rgb { 168 141 26 }
+	color_ui = rgb { 168 141 26 }
+}
+RME = {
+	color = rgb { 53 87 53 }
+	color_ui = rgb { 43 71 43 }
+}
+PRS = {
+	color = rgb { 71 113 97 }
+	color_ui = rgb { 92 147 126 }
+}
+RMK = {
+	color = rgb { 215 196 72 }
+	color_ui = rgb { 255 255 120 }
+}
+AFN = {
+	color = rgb { 64 160 167 }
+	color_ui = rgb { 83 208 217 }
+}
+NJD = {
+	color = rgb { 105 90 132 }
+	color_ui = rgb { 105 90 132 }
+}
+OMN = {
+	color = rgb { 155 101 107 }
+	color_ui = rgb { 202 131 139 }
+}
+EPA = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+SSA = {
+	color = rgb { 195 107 160 }
+	color_ui = rgb { 198 169 248 }
+}
+ITL = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+OTM = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
+}
+FTP = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+FRR = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+FTM = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+GRK = {
+	color = rgb { 93 181 227 }
+	color_ui = rgb { 121 235 255 }
+}
+BLT = {
+	color = rgb { 51 155 0 }
+	color_ui = rgb { 51 155 0 }
+}
+SWK = {
+	color = rgb { 104 170 213 }
+	color_ui = rgb { 95 157 198 }
+}
+DNK = {
+	color = rgb { 153 116 93 }
+	color_ui = rgb { 199 151 121 }
+}
+KAL = {
+	color = rgb { 149 45 102 }
+	color_ui = rgb { 194 59 133 }
+}
+ASE = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+NTL = {	
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
+}
+BGL = { 
+	color 	 = rgb { 193 171 8  }
+	color_ui = rgb { 251 222 10 }
+}
+GME = {
+	color = rgb { 96 96 96 }
+	color_ui = rgb { 90 90 90 }
+}
+NRK = {
+	color = rgb { 111 71 71 }
+	color_ui = rgb { 144 92 92 }
+}
+MOT = {
+	color = rgb { 77  90  105 }
+	color_ui = rgb { 77  90  105 }
+}
+SPA = {
+	color = rgb { 198 181 29 }
+	color_ui = rgb { 159 128 26 }
+}
+PRT = {
+	color = rgb { 41 125 20 }
+	color_ui = rgb { 34 102 16 }
+}

@@ -1,0 +1,15 @@
+characters={
+	RMK_Karol_I = {
+		name = "Karol I" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Karol_I
+			}
+		}
+		country_leader = {
+			ideology = absolut_monarchism
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

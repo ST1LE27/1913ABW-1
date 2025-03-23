@@ -1,0 +1,15 @@
+characters={
+	PRS_Seyed_Abdullah_Behbahani = {
+		name = "Seyed Abdullah Behbahani" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Seyed_Abdullah_Behbahani
+			}
+		}
+		country_leader = {
+			ideology = const_monarchism
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

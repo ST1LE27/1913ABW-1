@@ -1,0 +1,15 @@
+characters={
+	SWK_Yalmar_Hammersheld = {
+		name = "Yalmar Hammersheld" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Yalmar_Hammersheld
+			}
+		}
+		country_leader = {
+			ideology = const_monarchism
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

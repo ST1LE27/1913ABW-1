@@ -1,0 +1,15 @@
+characters={
+	BPZ_Sir_Persy_Scott = {
+		name = "Sir Persy Scott" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Sir_Persy_Scott
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

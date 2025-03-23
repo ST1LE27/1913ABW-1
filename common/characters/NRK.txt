@@ -1,0 +1,15 @@
+characters={
+	NRK_Gunnar_Knudsen = {
+		name = "Gunnar Knudsen" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Gunnar_Knudsen
+			}
+		}
+		country_leader = {
+			ideology = const_monarchism
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

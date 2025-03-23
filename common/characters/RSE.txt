@@ -1,0 +1,89 @@
+characters={
+	RSE_Nicholas_II = {
+		name = "Nicholas II Romanov" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Nicholas_II
+			}
+		}
+		country_leader = {
+			ideology = absolut_monarchism
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+	
+	RSE_Mikhail_Alexeev = {
+		name = RSE_mikhail_alexeev
+		portraits = {
+			army = {
+				small = "GFX_idea_mikhail_alexeev"
+				large = "GFX_portrait_RSE_mikhail_alexeev"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = mikhail_alexeev
+			allowed = {
+				original_tag = RSE
+			}
+			available = {
+			}
+			traits = {
+				army_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				base = 4
+			}
+		}
+
+		corps_commander = {
+			traits = { career_officer cavalry_officer politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 404
+			visible = {}
+		}
+	}
+	
+	RSE_Nikolai_Yanushkevich = {
+		name = RSE_nikolai_yanushkevich
+		portraits = {
+			army = {
+				small = "GFX_idea_nikolai_yanushkevich"
+				large = "GFX_portrait_RSE_nikolai_yanushkevich"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = nikolai_yanushkevich
+			allowed = {
+				original_tag = RSE
+			}
+			available = {
+			}
+			traits = {
+				army_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				base = 4
+			}
+		}
+
+		corps_commander = {
+			traits = { career_officer cavalry_officer politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 404
+			visible = {}
+		}
+	}
+}

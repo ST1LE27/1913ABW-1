@@ -1,0 +1,15 @@
+characters={
+	PRT_Manuel_de_Arriaga = {
+		name = "Manuel de Arriaga" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Manuel_de_Arriaga
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

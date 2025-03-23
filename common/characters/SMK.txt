@@ -1,0 +1,15 @@
+characters={
+	SMK_Rama_VI = {
+		name = "Rama VI" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Rama_VI
+			}
+		}
+		country_leader = {
+			ideology = absolut_monarchism
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

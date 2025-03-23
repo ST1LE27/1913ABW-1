@@ -1,0 +1,21 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_RSE_Russian_Japanese_Peace"
+		texturefile = "gfx/interface/ideas/RSE/RSE_Russian_Japanese_Peace.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_RSE_Tick_of_Clock"
+		texturefile = "gfx/interface/ideas/RSE/RSE_Tick_of_Clock.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RSE_French_investments"
+		texturefile = "gfx/interface/ideas/RSE/RSE_French_investments.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RSE_Caspian_Victory"
+		texturefile = "gfx/interface/ideas/RSE/RSE_Caspian_Victory.dds"
+	}
+}

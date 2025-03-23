@@ -1,0 +1,48 @@
+
+add_namespace = rusempire
+
+country_event = {
+    id = rusempire.1
+    title = "Выбор нового Главнокомандующего"
+    desc = "После отстранения Николая Романова Младшего от должности Главнокомандующего Русской Императорской Армии, на освободившееся место претендуют два кандидата: генерал Николай Янушкевич и генерал Михаил Алексеев.\n\n
+    **Николай Янушкевич** — опытный военачальник, известный своей преданностью императору и консервативными взглядами. Его сторонники утверждают, что он сможет укрепить дисциплину в армии и сохранить традиционные ценности.\n\n
+    **Михаил Алексеев** — талантливый стратег, пользующийся уважением среди офицеров. Его поддерживают те, кто считает, что армия нуждается в модернизации и реформах.\n\n
+    Оба кандидата имеют как сторонников, так и противников, которые активно лоббируют свои интересы при дворе. Теперь выбор за вами — кому доверить судьбу Русской Императорской Армии?"
+    picture = "gfx/interface/events/your_event_picture.dds"  # Замените на путь к картинке
+
+    is_triggered_only = yes
+	
+    option = {
+        name = "Поддержать Николая Янушкевича"
+        hidden_effect = {
+            RSE = {
+                set_country_flag = yanushkevich_support
+			    set_country_flag = show_commander_decisions
+                add_political_power = -10
+                set_power_balance = {
+                    id = RSE_commander_balance
+                    left_side = yanushkevich_victory
+                    right_side = alexeev_victory
+                }
+            }
+        }
+        custom_effect_tooltip = "Начнётся борьба за влияние на императора."
+    }
+
+    option = {
+        name = "Поддержать Михаила Алексеева"
+        hidden_effect = {
+            RSE = {
+                set_country_flag = alexeev_support
+			    set_country_flag = show_commander_decisions
+                add_political_power = -10
+                set_power_balance = {
+                    id = RSE_commander_balance
+                    left_side = yanushkevich_victory
+                    right_side = alexeev_victory
+                }
+            }
+        }
+        custom_effect_tooltip = "Начнётся борьба за влияние на императора."
+    }
+}

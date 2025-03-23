@@ -1,0 +1,15 @@
+characters={
+	BRT_Herbert_Henry_Asquith = {
+		name = "Herbert Henry Asquith" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Herbert_Henry_Asquith
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

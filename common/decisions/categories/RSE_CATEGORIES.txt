@@ -1,0 +1,5 @@
+RSE_new_fieldmarshall = { 
+	priority = 100
+	icon = GFX_decision_category_generic_crisis
+	picture = GFX_decision_cat_picture_antischluss_measures
+}

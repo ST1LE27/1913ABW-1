@@ -1,0 +1,90 @@
+ideas = {
+
+	country = {
+		RSE_Russian_Japanese_Peace = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_RSE_Russian_Japanese_Peace
+
+			modifier = {
+				political_power_gain = -0.1
+				stability_weekly = -0.02
+				war_support_factor = -0.25
+				command_power_gain = -0.2
+				monarchism_acceptance = -10
+				targeted_modifier = { tag = JPN attack_bonus_against = 0.1 }
+				targeted_modifier = { tag = JPN war_support_factor = 0.1 }
+			}
+		}
+		
+		RSE_Tick_of_Clock = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_RSE_Tick_of_Clock
+
+			modifier = {
+				stability_weekly = -0.01
+				war_support_factor = 0.08
+				training_time_army_factor = 0.07
+				army_org_factor = 0.05
+				planning_speed = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_bunker_factor = 0.15
+				production_speed_arms_factory_factor = 0.1
+				MONTHLY_POPULATION = -0.03
+			}
+		}
+		
+		RSE_French_investments = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_RSE_French_investments
+
+			modifier = {
+				stability_weekly = 0.02
+				industrial_capacity_factory = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				political_power_gain = 0.2
+				monarchism_acceptance = 15
+				conservatism_drift = 0.02
+				targeted_modifier = { tag = FRC industrial_capacity_factory = -0.05 }
+				targeted_modifier = { tag = FRC political_power_gain = -0.1 }
+			}
+		}
+		
+		RSE_Caspian_Victory = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_RSE_Caspian_Victory
+
+			modifier = {
+				stability_weekly = 0.02
+				monarchism_drift = 0.01
+				production_speed_dockyard_factor = 0.1
+				local_resources_factor = 0.05
+				political_power_gain = 0.1
+			}
+		}
+	}
+}
+

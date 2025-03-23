@@ -1,0 +1,15 @@
+characters={
+	OMN_Taimur = {
+		name = "Taimur bin Faisal Al Said" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Taimur
+			}
+		}
+		country_leader = {
+			ideology = absolut_monarchism
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

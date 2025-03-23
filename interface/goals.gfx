@@ -1,0 +1,215 @@
+spriteTypes = {	
+	SpriteType = {
+	name = "GFX_goal_New_Fieldmarshal"
+	texturefile = "gfx/interface/goals/RSE/starttree/New_Fieldmarshal.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_Welcome_Stolypin"
+	texturefile = "gfx/interface/goals/RSE/starttree/Welcome_Stolypin.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_Alekseev"
+	texturefile = "gfx/interface/goals/RSE/starttree/Alekseev.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_innovation_education"
+	texturefile = "gfx/interface/goals/RSE/starttree/innovation_education.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Liberalistic_Officer"
+	texturefile = "gfx/interface/goals/RSE/starttree/Liberalistic_Officer.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Kolchak"
+	texturefile = "gfx/interface/goals/RSE/starttree/Kolchak.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Yanushkevich"
+	texturefile = "gfx/interface/goals/RSE/starttree/Yanushkevich.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Yanushkevich_plan"
+	texturefile = "gfx/interface/goals/RSE/starttree/Yanushkevich_plan.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Generate_plan"
+	texturefile = "gfx/interface/goals/RSE/starttree/Generate_plan.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Alexeev_plan"
+	texturefile = "gfx/interface/goals/RSE/starttree/Alexeev_plan.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Prepare_to_war"
+	texturefile = "gfx/interface/goals/RSE/starttree/Prepare_to_war.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Mobilisation_lists"
+	texturefile = "gfx/interface/goals/RSE/starttree/Mobilisation_lists.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_standartisation_complects"
+	texturefile = "gfx/interface/goals/RSE/starttree/standartisation_complects.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_arest_trade_ship"
+	texturefile = "gfx/interface/goals/RSE/starttree/arest_trade_ship.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Investmants_in_mechanization"
+	texturefile = "gfx/interface/goals/RSE/starttree/Investmants_in_mechanization.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_mobilization"
+	texturefile = "gfx/interface/goals/RSE/starttree/mobilization.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Russia_in_war"
+	texturefile = "gfx/interface/goals/RSE/starttree/Russia_in_war.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_dot_position"
+	texturefile = "gfx/interface/goals/RSE/starttree/dot_position.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_ukrep"
+	texturefile = "gfx/interface/goals/RSE/starttree/ukrep.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_conservatism_in_army"
+	texturefile = "gfx/interface/goals/RSE/starttree/conservatism_in_army.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Tsars_army"
+	texturefile = "gfx/interface/goals/RSE/starttree/Tsars_army.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Essen"
+	texturefile = "gfx/interface/goals/RSE/starttree/Essen.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Upgrading_Artillery"
+	texturefile = "gfx/interface/goals/RSE/starttree/Upgrading_Artillery.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Upgrade_Obukhov_Factory"
+	texturefile = "gfx/interface/goals/RSE/starttree/Upgrade_Obukhov_Factory.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_arest_dockyard"
+	texturefile = "gfx/interface/goals/RSE/starttree/arest_dockyard.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Swimming_castle"
+	texturefile = "gfx/interface/goals/RSE/starttree/Swimming_castle.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Navy_bunker"
+	texturefile = "gfx/interface/goals/RSE/starttree/Navy_bunker.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Improve_citizen_laws"
+	texturefile = "gfx/interface/goals/RSE/starttree/Improve_citizen_laws.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Deffend_Worker"
+	texturefile = "gfx/interface/goals/RSE/starttree/Deffend_Worker.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Investment_in_selfmade"
+	texturefile = "gfx/interface/goals/RSE/starttree/Investment_in_selfmade.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_capital_in_farming"
+	texturefile = "gfx/interface/goals/RSE/starttree/capital_in_farming.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_End_Agrarian_Reform"
+	texturefile = "gfx/interface/goals/RSE/starttree/End_Agrarian_Reform.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Okhranka"
+	texturefile = "gfx/interface/goals/RSE/starttree/Okhranka.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Voen_pologenie"
+	texturefile = "gfx/interface/goals/RSE/starttree/Voen_pologenie.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Evacuation_Emperor_Family"
+	texturefile = "gfx/interface/goals/RSE/starttree/Evacuation_Emperor_Family.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Agent_in_revolution"
+	texturefile = "gfx/interface/goals/RSE/starttree/Agent_in_revolution.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Karatels_squads"
+	texturefile = "gfx/interface/goals/RSE/starttree/Karatels_squads.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Arest_revolt_leaders"
+	texturefile = "gfx/interface/goals/RSE/starttree/Arest_revolt_leaders.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_revolt_is_stopped"
+	texturefile = "gfx/interface/goals/RSE/starttree/revolt_is_stopped.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_prepare_red_square"
+	texturefile = "gfx/interface/goals/RSE/starttree/prepare_red_square.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Create_Logistic_Network"
+	texturefile = "gfx/interface/goals/RSE/starttree/Create_Logistic_Network.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Training_Mriners"
+	texturefile = "gfx/interface/goals/RSE/starttree/Training_Mriners.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Buy_British_Tanks"
+	texturefile = "gfx/interface/goals/RSE/starttree/Buy_British_Tanks.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Logistic_2"
+	texturefile = "gfx/interface/goals/RSE/starttree/Logistic_2.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Speed_War"
+	texturefile = "gfx/interface/goals/RSE/starttree/Speed_War.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_NKKI"
+	texturefile = "gfx/interface/goals/RSE/starttree/NKKI.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Bloodly_week"
+	texturefile = "gfx/interface/goals/RSE/starttree/Bloodly_week.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Control_Duma"
+	texturefile = "gfx/interface/goals/RSE/starttree/Control_Duma.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_New_Secret_Emperor_Union"
+	texturefile = "gfx/interface/goals/RSE/starttree/New_Secret_Emperor_Union.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Gernan_Russian_Contact"
+	texturefile = "gfx/interface/goals/RSE/starttree/Gernan_Russian_Contact.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Make_yourself"
+	texturefile = "gfx/interface/goals/RSE/starttree/Make_yourself.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_innovation_education"
+	texturefile = "gfx/interface/goals/RSE/starttree/innovation_education.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_innovation_education"
+	texturefile = "gfx/interface/goals/RSE/starttree/innovation_education.dds"			
+	}
+	
+}

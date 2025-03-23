@@ -1,0 +1,15 @@
+characters={
+	BNZ_Joseph_Ward = {
+		name = "Joseph Ward" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Joseph_Ward
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

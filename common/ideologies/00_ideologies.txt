@@ -1,0 +1,312 @@
+ideologies = {
+
+	monarchism = {
+
+		types = {
+
+			absolut_monarchism  = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_MONARCHISM_1"
+			"FACTION_NAME_MONARCHISM_2"
+			"FACTION_NAME_MONARCHISM_3"
+			"FACTION_NAME_MONARCHISM_4"
+			"FACTION_NAME_MONARCHISM_5"
+		}
+
+		color = { 220 220 220 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			political_power_gain = 0.1
+			war_support = 0.2
+			stability = 0.1
+			monarchism_acceptance = 50
+			infrastructure_factor = 0.1
+			disabled_ideas = 1
+			drift_defence_factor = -0.2
+			public_opinion_factor = -0.1
+			war_stability_factor = -0.2
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes #
+		ai_ideology_wanted_units_factor = 1.15
+		
+		ai_give_core_state_control_threshold = 10000
+	}
+	
+	conservatism = {
+
+		types = {
+
+			const_monarchism  = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSERVATISM_1"
+			"FACTION_NAME_CONSERVATISM_2"
+			"FACTION_NAME_CONSERVATISM_3"
+			"FACTION_NAME_CONSERVATISM_4"
+			"FACTION_NAME_CONSERVATISM_5"
+		}
+
+		color = { 192 192 192 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			political_power_gain = 0.1
+			stability_factor = 0.15
+			war_support_factor = 0.1
+			drift_defence_factor = 0.2
+			research_speed_factor = 0.08
+			disabled_ideas = 1
+			political_power_cost = 0.03
+			stability_weekly_factor = -0.02
+			war_stability_factor = -0.02
+			max_surrender_limit_offset = 0.15
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes #
+		ai_ideology_wanted_units_factor = 1.15
+		
+		ai_give_core_state_control_threshold = 10000
+	}
+	
+	liberalism = {
+
+		types = {
+
+			liberal  = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERALISM_1"
+			"FACTION_NAME_LIBERALISM_2"
+			"FACTION_NAME_LIBERALISM_3"
+			"FACTION_NAME_LIBERALISM_4"
+			"FACTION_NAME_LIBERALISM_5"
+		}
+
+		color = { 160 188 212 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			political_power_gain = 0.1
+			research_speed_factor = 0.08
+			stability_factor = 0.1
+			war_support_factor = 0.05
+			trade_opinion_factor = 0.15
+			stability_weekly_factor = -0.03
+			nationalism_drift = 0.02
+			political_power_cost = 0.04
+			foreign_influence = 0.1
+			civil_unrest_factor = 0.15
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes #
+		ai_ideology_wanted_units_factor = 1.15
+		
+		ai_give_core_state_control_threshold = 10000
+	}
+	
+	socialism = {
+
+		types = {
+
+			marxism  = {
+			}
+			
+			narodnik  = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALISM_1"
+			"FACTION_NAME_SOCIALISM_2"
+			"FACTION_NAME_SOCIALISM_3"
+			"FACTION_NAME_SOCIALISM_4"
+			"FACTION_NAME_SOCIALISM_5"
+		}
+
+		color = { 228 116 116 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			political_power_gain = 0.1
+			resource_extraction_factor = 0.3
+			stability_factor = 0.2
+			research_speed_factor = 0.2
+			war_support_factor = 0.2
+			political_power_cost = 0.2
+			disabled_ideas = 1
+			offensive_war_stability_factor = -0.3
+			civil_war_involvement_tension = 0.2
+			drift_defence_factor = 0.3
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes #
+		ai_ideology_wanted_units_factor = 1.15
+		
+		ai_give_core_state_control_threshold = 10000
+	}
+	
+	socialdemocratic = {
+
+		types = {
+
+			bolshevik  = {
+			}
+			
+			menshevik  = {
+			}
+			
+			socialists = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALDEMOCRATIC_1"
+			"FACTION_NAME_SOCIALDEMOCRATIC_2"
+			"FACTION_NAME_SOCIALDEMOCRATIC_3"
+			"FACTION_NAME_SOCIALDEMOCRATIC_4"
+			"FACTION_NAME_SOCIALDEMOCRATIC_5"
+		}
+
+		color = { 255 178 102 }
+
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			political_power_gain = 0.2
+			stability_bonus = 0.1
+			hearts_and_minds = 0.05
+			research_speed_factor = 0.15
+			social_reform_bonus = 0.05
+			war_support_factor = -0.1
+			party_popularity_stability_factor - -0.05
+			economic_recession_factor = -0.1
+			bureaucratic_burden = -0.1
+			ideology_drift = -0.02
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes #
+		ai_ideology_wanted_units_factor = 1.15
+		
+		ai_give_core_state_control_threshold = 10000
+	}
+	
+	nationalism = {
+
+		types = {
+
+			nationalist = {
+			}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
+		}
+
+		color = { 150 75 0 }
+
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_cost_factor = 1
+			lend_lease_tension = 0.50
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+		ai_ideology_wanted_units_factor = 1.65
+		
+		ai_give_core_state_control_threshold = 10000
+	}
+}

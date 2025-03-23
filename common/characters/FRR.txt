@@ -1,0 +1,15 @@
+characters={
+	FRR_Louis_Barthou = {
+		name = "Louis Barthou" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Louis_Barthou
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

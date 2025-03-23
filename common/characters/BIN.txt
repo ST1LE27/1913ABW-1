@@ -1,0 +1,15 @@
+characters={
+	BIN_Charles_Hardinge = {
+		name = "Lord Charles Hardinge" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Charles_Hardinge
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

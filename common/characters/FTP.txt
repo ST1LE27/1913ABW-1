@@ -1,0 +1,15 @@
+characters={
+	FTP_Gabriel_Alapetite = {
+		name = "Gabriel Alapetite" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Gabriel_Alapetite
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}

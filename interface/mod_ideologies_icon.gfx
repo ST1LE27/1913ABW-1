@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_group"
+		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialism_group"
+		texturefile = "gfx/interface/ideologies/socialism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialdemocratic_group"
+		texturefile = "gfx/interface/ideologies/socialdemocratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_nationalism_group"
+		texturefile = "gfx/interface/ideologies/nationalism_group.dds"
+	}
+}

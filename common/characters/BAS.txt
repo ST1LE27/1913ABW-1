@@ -1,0 +1,15 @@
+characters={
+	BAS_Joseph_Cook = {
+		name = "Joseph Cook" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Joseph_Cook
+			}
+		}
+		country_leader = {
+			ideology = liberal
+			expire = "1976.1.1.1"
+			id = -1
+		}
+	}
+}
