@@ -9,12 +9,15 @@ RSE_new_fieldmarshall = {
             has_country_flag = yanushkevich_support
         }
         available = {
-            RSE = {
                 political_power = 75
-        }
 		}
 		cost = 75  # Политическая сила
-		effect = {
+		complete_effect = {
+			add_power_balance_value = {
+    			id = RSE_commander_balance
+    			value = -0.05
+    			tooltip_side = yanushkevich_victory
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -30,13 +33,61 @@ RSE_new_fieldmarshall = {
         visible = {
             has_country_flag = alexeev_support
         }
-        available = {
-            RSE = {
-                political_power = 75
-        }
-		}
 		cost = 75  # Политическая сила
-		effect = {
+		complete_effect = {
+			add_power_balance_value = {
+    			id = RSE_commander_balance
+    			value = 0.05
+    			tooltip_side = alexeev_victory
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	RSE_yanushkevich_win = {
+		name = "yanushkevich_win"
+		icon = GFX_decision_icon  # Замените на иконку
+		allowed = {
+            tag = RSE
+        }
+        visible = {
+            is_power_balance_in_range = {
+    			id = RSE_commander_balance
+    			range = total_yanushkevich_support
+			}
+        }
+		cost = 150  # Политическая сила
+		complete_effect = {
+			complete_national_focus = RSE7
+			remove_power_balance = {
+    			id = RSE_commander_balance
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	RSE_alexeev_win = {
+		name = "alexeev_win"
+		icon = GFX_decision_icon  # Замените на иконку
+		allowed = {
+            tag = RSE
+        }
+        visible = {
+            is_power_balance_in_range = {
+    			id = RSE_commander_balance
+    			range = total_alexeev_support
+			}
+        }
+		cost = 150  # Политическая сила
+		complete_effect = {
+			complete_national_focus = RSE3
+			remove_power_balance = {
+    			id = RSE_commander_balance
+			}
 		}
 		ai_will_do = {
 			factor = 1

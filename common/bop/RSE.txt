@@ -74,11 +74,6 @@ RSE_commander_balance = {
                     stability_factor = 0.15
                     resistance_activity = 0.1
                     research_speed_factor = -0.07
-                    on_activate = {
-                        ROOT = {
-                            complete_national_focus = RSE3
-                        }
-                    }
                 }
             custom_modifier_tooltip = "Император назначает Янушкевича Главнокомандующим Русской Императорской Армии"
             }
@@ -140,11 +135,6 @@ RSE_commander_balance = {
                     stability_factor = -0.07
                     research_speed_factor = 0.15
                     training_time_army_factor = 0.1
-                    on_activate = {
-                        ROOT = {
-                            complete_national_focus = RSE3
-                        }
-                    }
                 }
             custom_modifier_tooltip = "Император назначает Алексеева Главнокомандующим Русской Императорской Армии"
             }

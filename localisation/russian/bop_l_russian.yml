@@ -1,0 +1,11 @@
+l_russian:
+RSE_commander_balance:0 "Новый Главнокомандующий?"
+equal_support:0 "Ничья"
+low_yanushkevich_support:0 "Слабая поддержка Янушкевича"
+medium_yanushkevich_support:0 "Средняя поддержка Янушкевича"
+large_yanushkevich_support:0 "Большая поддержка Янушкевича"
+total_yanushkevich_support:0 "Тотальная поддержка Янушкевича"
+low_alexeev_support:0 "Слабая поддержка Алексеева"
+medium_alexeev_support:0 "Средняя поддержка Алексеева"
+large_alexeev_support:0 "Большая поддержка Алексеева"
+total_alexeev_support:0 "Тотальная поддержка Алексеева"
