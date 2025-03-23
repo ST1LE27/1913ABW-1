@@ -1,5 +1,5 @@
-l_russian:
-RSE_increase_yanushkevich:0 "Продвигать кандидатуру Янушкевича"
-RSE_increase_alexeev:0 "Продвигать кандидатуру Алексеева"
-RSE_yanushkevich_win:0 "Назначить Янушкевича"
-RSE_alexeev_win:0 "Назначить Алексеева"
+﻿l_russian:
+increase_yanushkevich_support: "Продвигать кандидатуру Янушкевича"
+increase_alexeev_support: "Продвигать кандидатуру Алексеева"
+yanushkevich_win: "Назначить Янушкевича"
+alexeev_win: "Назначить Алексеева"
