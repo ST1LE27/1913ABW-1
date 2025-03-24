@@ -93,4 +93,44 @@ RSE_new_fieldmarshall = {
 			factor = 1
 		}
 	}
+
+	Yanushkevich_returned_mission = {
+    	activation = {
+        	has_country_flag = alexeev_support
+    	}
+    	available = {
+        	has_country_flag = alexeev_support
+    	}
+    	icon = mission_icon     # For GFX_decision_mission_icon
+    	is_good = yes
+    	days_mission_timeout = 15
+    	selectable_mission = no
+    	timeout_effect = {
+        	add_power_balance_value = {
+    			id = RSE_commander_balance
+    			value = -0.05
+    			tooltip_side = yanushkevich_victory
+			}
+    	}
+	}	
+
+	Alexeev_returned_mission = {
+    	activation = {
+        	has_country_flag = yanushkevich_support
+    	}
+    	available = {
+        	has_country_flag = yanushkevich_support
+    	}
+    	icon = mission_icon     # For GFX_decision_mission_icon
+    	is_good = yes
+    	days_mission_timeout = 15
+    	selectable_mission = no
+    	timeout_effect = {
+        	add_power_balance_value = {
+    			id = RSE_commander_balance
+    			value = 0.05
+    			tooltip_side = alexeev_victory
+			}
+    	}
+	}	
 }

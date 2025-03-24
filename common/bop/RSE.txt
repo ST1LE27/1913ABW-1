@@ -20,7 +20,7 @@ RSE_commander_balance = {
 
     side = {
         id = yanushkevich_victory
-        icon = GFX_idea_generic_conservative_tradition  # Замените на иконку Янушкевича
+        icon = GFX_idea_yanushkevich_victory_side  
         range = {
             id = low_yanushkevich_support
             min = -0.36
@@ -81,7 +81,7 @@ RSE_commander_balance = {
     }
     side = {
         id = alexeev_victory
-        icon = GFX_idea_generic_military_modernization  # Замените на иконку Алексеева
+        icon = GFX_idea_alexeev_victory_side  
         range = {
             id = low_alexeev_support
             min = 0.1

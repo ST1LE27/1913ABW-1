@@ -48,6 +48,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			recruit_character = RSE_Mikhail_Alexeev
+			add_ideas = RSE_General_Alekseev
 		}
 	}
 	focus = {
@@ -109,6 +110,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			recruit_character = RSE_Nikolai_Yanushkevich
+			add_ideas = RSE_General_Yanushkevich
 		}
 	}
 	focus = {

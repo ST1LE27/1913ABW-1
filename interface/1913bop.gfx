@@ -1,0 +1,13 @@
+#Выбор Нового Главнокомандующего в России
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_yanushkevich_victory_side"
+		texturefile = "gfx/interface/bop/yanucshkevich_victory_side.dds"
+	}
+
+    spriteType = {
+		name = "GFX_idea_alexeev_victory_side"
+		texturefile = gfx/interface/bop/alexeev_victory_side.dds"
+	}
+}
